@@ -1,0 +1,162 @@
+.calculadora {
+    background-color: rgb(138, 226, 138);
+    border: 0.3rem solid black;
+    height: 35rem;
+    width: 65rem;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.numero {
+    margin: 0.1rem;
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: white;
+    background-color: green;
+}
+
+.numero:hover {
+    background-color: black;
+}
+
+.cont-numeros {
+    margin: 0 auto;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.cont-cuentas {
+    height: 100%;
+    width: 40%;
+    background-color: aliceblue;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cont-cuentas h2 {
+    height: 5rem;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-monto {
+    border: 0.1rem solid black;
+    margin: 0 auto;
+    height: 5rem;
+    width: 90%;
+    font-size: 3.3em;
+    display: flex;
+    padding-right: 0.5rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cont-opciones {
+    margin-top: 3.5rem;
+    background-color: green;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    height: 12rem;
+    width: 24rem;
+    color: rgb(182, 229, 182);
+    font-size: 1.3em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-opcion {
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-opcion .tipo {
+    width: 45%;
+    text-align: center;
+}
+
+.cont-opcion .total {
+    width: 25%;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.cont-opcion .precio {
+    width: 30%;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+@media (max-width: 1280px) and (min-width: 1000px) {
+    .calculadora {
+        height: 30rem;
+    }
+
+    .cont-cuentas {
+        width: 50%;
+    }
+}
+
+@media (max-width: 999px) and (min-width: 200px){ 
+
+    .calculadora {
+        margin-top: 2rem;
+        width: 100%;
+        border: 0;
+        flex-wrap: wrap;
+    }
+
+    .cont-cuentas {
+        order: 0;
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .cont-numeros {
+        order: 1;
+    }
+}
+
+@media (max-width: 999px) and (min-width: 500px) {
+
+    .cont-numeros {
+        width: 40%;
+    }
+}
+
+@media (width: 425px) {
+    .cont-numeros {
+        width: 70%;
+    }
+}
+
+@media (max-width: 424px) {
+    .cont-numeros {
+        width: 80%;
+    }
+}
+
+
+
+
