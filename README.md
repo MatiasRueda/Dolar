@@ -14,24 +14,6 @@ Proyecto individual
 - CSS
 - TypeScript
 
-## Instalación 
-Para poder usar el proyecto es necesario tener instalado Node.
-Una vez instalado Node hay que utilizar el siguiente comando:
-```
-npm i
-```
-Esto instalara todas las dependencias.
-
-## Uso
-Para poder usarlo simplemente utilizar el siguiente comando:
-```
-npm run dev
-```
-y dirigirse a la dirección que se muestra en consola
-
-En caso de no realizar lo anteriormente dicho se puede dirigir directamente a la siguiente dirección y probar dicho proyecto: https://startling-stardust-162ed8.netlify.app
-
-
 ## Estructura
 
 ```
@@ -68,3 +50,21 @@ Dolar
 └─ vite.config.ts
 
 ```
+
+## Instalación 
+Para poder usar el proyecto es necesario tener instalado Node.
+Una vez instalado Node hay que utilizar el siguiente comando:
+```
+npm i
+```
+Esto instalara todas las dependencias.
+
+## Uso
+Para poder usarlo simplemente utilizar el siguiente comando:
+```
+npm run dev
+```
+y dirigirse a la dirección que se muestra en consola
+
+En caso de no realizar lo anteriormente dicho se puede dirigir directamente a la siguiente dirección y probar dicho proyecto: https://startling-stardust-162ed8.netlify.app
+
