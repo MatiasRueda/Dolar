@@ -14,6 +14,9 @@ Proyecto individual
 - CSS
 - TypeScript
 
+## Capturas de pantalla 
+<img src="https://i.postimg.cc/CL9VrfCY/DOLAR.png">
+
 ## Estructura
 
 ```
@@ -52,19 +55,19 @@ Dolar
 ```
 
 ## Instalación 
-Para poder usar el proyecto es necesario tener instalado Node.
-Una vez instalado Node hay que utilizar el siguiente comando:
+Antes de descargar o clonar el repositorio es necesario que usted instale Node (https://nodejs.org/en).
+Una vez descargado o clanado el repositorio, abra la terminal en la ruta donde se encuentra el proyecto y escriba el siguiente comando.
 ```
 npm i
 ```
-Esto instalara todas las dependencias.
+Esto instalara las dependencias que necesite el proyecto.
 
 ## Uso
-Para poder usarlo simplemente utilizar el siguiente comando:
+En caso de haber seguido los pasos de la instalación solo debe ejecutar el siguiente comando:
 ```
 npm run dev
 ```
 y dirigirse a la dirección que se muestra en consola
 
-En caso de no realizar lo anteriormente dicho se puede dirigir directamente a la siguiente dirección y probar dicho proyecto: https://startling-stardust-162ed8.netlify.app
+En caso de saltarse los paso de instalación y querer probar el proyecto en linea visitar el siguiente link: https://startling-stardust-162ed8.netlify.app
 
